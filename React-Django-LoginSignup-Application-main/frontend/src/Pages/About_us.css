@@ -1,0 +1,60 @@
+/* AboutUs.css */
+
+.audit-x-container {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: auto; /* Center the container */
+    padding: 20px;
+    
+    background-color: #ffffff; /* Background color */
+}
+
+.section {
+    margin-bottom: 40px; /* Space between sections */
+}
+
+.section-title {
+    font-size: 2rem; /* Title font size */
+    margin-bottom: 20px;
+    color: #000000; /* Font color */
+}
+
+.section-subtitle {
+    font-size: 1.5rem; /* Subtitle font size */
+    margin-bottom: 10px;
+    color: #000000; /* Font color */
+}
+
+.feature-title {
+    font-size: 1.2rem; /* Feature title font size */
+    margin-bottom: 5px;
+    color: #000000; /* Font color */
+}
+
+.feature-description, .section-content {
+    line-height: 1.6; /* Line height for readability */
+    color: #000000; /* Font color */
+}
+
+.benefits-list, .uses-list {
+    list-style-type: none; /* Remove default list styling */
+    padding-left: 0; /* Remove default padding */
+    color: #000000; /* Font color */
+}
+
+.benefits-list li, .uses-list li {
+    margin-bottom: 10px; /* Space between list items */
+    color: #000000; /* Font color */
+}
+
+/* Add media queries for responsive design */
+@media (max-width: 768px) {
+    .section-title, .section-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .feature-title {
+        font-size: 1rem;
+    }
+}
+
+/* Add additional styling as needed */
